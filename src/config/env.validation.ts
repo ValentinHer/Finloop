@@ -8,9 +8,6 @@ enum Enviroment {
 }
 
 class EnviromentVariables {
-    @IsEnum(Enviroment)
-    NODE_ENV: Enviroment;
-
     @IsString()
     DB_HOST: string;
 
